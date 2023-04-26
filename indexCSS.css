@@ -1,0 +1,148 @@
+/* CSS Document */
+
+#center_container {
+
+}
+
+
+
+
+
+#stats_container {
+    width: 100%;
+
+}
+
+
+
+#table_bar {
+    display: flex;
+    width: 99%;
+    border-color: #2F2F2F;
+    border: 1px solid;
+    border-radius: 40em;
+    overflow: hidden;
+	    margin: auto;
+		margin-bottom:2%;
+	 box-shadow: 0 7px 14px 0 rgb(64 68 82 / 52%), 0 3px 6px 0 rgb(0 0 0 / 42%);
+	 
+	     justify-content: space-evenly;
+}
+
+
+.bar_btn {
+	    width: 30%;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border: none;
+	    text-align: center;
+    cursor: pointer;
+
+	}
+
+
+ #table_header {
+    display: inline-flex;
+    width: 100%;
+    border-color: #2F2F2F;
+    border: 1px solid;
+    /* margin: 1%; */
+    padding: 2%;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    cursor: pointer;
+	margin-bottom:2%;
+ }
+ 
+#table_body{
+     width: 100%;
+    border-color: #2F2F2F;
+    overflow: hidden;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    /* margin-bottom: 2%; */
+    box-shadow: 0 7px 14px 0 rgb(64 68 82 / 52%), 0 3px 6px 0 rgb(0 0 0 / 42%);
+    left: 0;
+    right: 0;
+    padding: 2%;
+    box-sizing: content-box;	
+}
+#insidebody{
+	margin: auto;
+    /* padding: 1%; */
+    display: inline-table;
+    width: 100%;
+    box-sizing: content-box;
+
+}
+
+#table_header div{
+    display: flex;
+    width: 10%;
+    color: #242424;
+    font-weight: bold;
+    font-size: 1vw;
+    text-align: center;
+    margin: 10px;
+    padding: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+	
+}
+
+.cols{
+    display: inline-flex;
+	    width: 100%;
+    cursor: pointer;
+font-size: smaller;
+}
+
+.col{
+    color: rgba(1,1,1,1.00);
+    margin: 10px;
+    /* padding: 1%; */
+    box-sizing: border-box;
+    /* width: inherit; */
+    overflow: hidden;
+    width: 10%;
+    text-align: center;
+}
+
+#total_guest{
+    text-align: center;
+    width: 90%;
+    color: #242424;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+
+
+
+
+.mainLinks{
+
+    /* height: 70px; */
+    width: 90%;
+    color: #242424;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-color: #2F2F2F;
+    border: 1px solid;
+    border-radius: 40em;
+    overflow: hidden;
+    cursor: pointer;
+    /* line-height: 250%; */
+    text-align: center;
+    margin: auto;
+    padding: 4%;
+    box-sizing: border-box;
+	margin-bottom:2%;
+	 box-shadow: 0 7px 14px 0 rgb(64 68 82 / 52%), 0 3px 6px 0 rgb(0 0 0 / 42%);
+}
+
+
